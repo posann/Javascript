@@ -2,8 +2,6 @@
 // let element1 = form.elements.element_1;
 // let element2 = form.elements.element_2;
 // let button = form.elements.element_button;
-
-
 // button.addEventListener("click", function(){
 //     let hasil = parseFloat(element1.value) + parseFloat(element2.value)
 //     alert(hasil)
@@ -32,3 +30,14 @@ for(i=0 ; i<4 ; i++){
     pendaftaran_mhs(nama_mhs[i], asal_mhs[i])
 }
 
+
+let l = 80
+let m = 56
+let n = 75
+let o = "56"
+
+if(m <= o || l > n || n == 10){
+    true
+} else {
+    false
+}

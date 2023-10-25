@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resource Loading</title>
+</head>
+
+<body>
+    <img src="https://sample.web/clipart/apple.png" alt="">
+    <img src="https://sample.web/clipart/dorian.png" alt="">
+    <img src="https://sample.web/clipart/banana.png" alt="">
+</body>
+<script>
+    function ready() {
+        alert("DOM sudah selesai di muat")
+        alert(`Ada ${document.images.length} gambar di halaman ini`)
+    }
+
+    document.addEventListener("DOMContentLoaded", ready)
+</script>
+
+</html>
